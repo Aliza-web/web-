@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            display: block;
+        }
+        .input-box{
+            display: inline-block;
+        }
+        form{
+            margin: 20px;
+        }
+        .btn{
+            background-color: blue;
+            padding: 10px;
+            border-radius: 4px;
+            color: white;
+            border: none;
+            margin: 5px;
+            width: 150px;
+        }
+        .btn:hover{
+            background-color: green;
+        }
+        .box{
+            margin: 10px;
+            padding: 5ppppx;
+            width: 280px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+      <h1>Registration</h1>
+    </header>
+    <main>
+      <h2>Personal Details</h2>
+      <form>
+        <div class="input-box">
+            <label for="name">
+                Full Name
+            </label>
+            <input type="text"
+            placeholder="Enter your name"
+            class="box">
+        </div>
+        <div class="input-box">
+            <label for="date of birth">
+                Date of Birth
+            </label>
+            <input type="date" 
+            placeholder="dd----yyyy"
+            class="box">
+        </div>
+        <div class="input-box">
+            <label for="email">
+                Email
+            </label>
+            <input type="email"
+            placeholder="Enter your email"
+            class="box">
+        </div>
+        <br>
+        <div class="input-box">
+            <label for="mobile number">
+                Mobile Number
+            </label>
+            <input type="numbers" 
+            placeholder="Enter mobile number"
+            class="box">
+        </div>
+        <div class="input-box">
+            <label for="gender">
+                Gender
+            </label>
+            <select class="box">
+                <option value="Select Option" hidden>Select Option</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+        <div class="input-box">
+            <label for="occupation">
+                Occupation
+            </label>
+            <input type="text" 
+            placeholder="Enter your occupation"
+            class="box">
+        </div>
+      </form>
+      <h2>Identity Details</h2>
+      <form>
+        <div class="input-box">
+            <label for="id type">
+                ID Type
+            </label>
+            <input type="numbers" 
+            placeholder="Enter ID type"
+            class="box">
+        </div>
+        <div class="input-box">
+            <label for="id Number">
+                ID Number
+            </label>
+            <input type="text"
+            placeholder="Enter ID number"
+            class="box">
+        </div>
+        <div class="input-box">
+            <label for="issued authority">
+                Issued authority
+            </label>
+            <input type="text"
+            placeholder="Enter issued authority"
+            class="box">
+        </div>
+        <br>
+        <div class="input-box">
+            <label for="issued state">
+                Issued State
+            </label>
+            <input type="text"
+            placeholder="Enter issued state"
+            class="box">
+        </div>
+        <div class="input-box">
+            <label for="issued date">
+                Issued Date
+            </label>
+            <input type="date" 
+            placeholder="dd----yyyy"
+            class="box">
+        </div>
+        <div class="input-box">
+            <label for="expiry date">
+                Expiry Date
+            </label>
+            <input type="date"
+            placeholder="dd----yyyy"
+            class="box">
+        </div>
+    </form>
+       <button class="btn">Next <span> &#10148; </span></button>
+    </main>
+</body> 
+</html>
