@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .floating{
+            width: 300px;
+            float: right;
+        }
+        p{
+            font-size: 40px;
+        }
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color:rgba(0, 110, 255, 0.493);
+            margin: 10px;
+            float: left;
+        }
+        /* using float with layout structure */
+        header h2, header nav{
+            background-color: rgba(165, 42, 42, 0.753);
+        }
+        footer h2, footer nav{
+            background-color: rgba(165, 42, 42, 0.753);
+        }
+        aside{
+            background-color: rgba(137, 43, 226, 0.596);
+            float :left;
+            width: 200px;
+            height: 800px;
+            margin-right: 10px;
+        }
+        aside ul{
+            list-style: none;
+        }
+        main{
+            background-color: rgba(165, 42, 42, 0.267);
+            padding: 5px;
+            width: 900px;
+        }
+        footer h2{
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Header</h2>
+        <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">contact</a>
+        </nav>
+    </header>
+    <aside>
+        <h2>Sidebar</h2>
+        <ul>
+            <li>Page1</li>
+            <li>Page2</li>
+            <li>Page3</li>
+        </ul>
+    </aside>
+    <main>
+        <!-- css float -->
+          <h2>Float Content</h2>
+         <img src="flower.webp" alt="flower" class="floating image">
+         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, doloribus cum! Sit, ducimus, commodi nisi asperiores consectetur qui nam nobis impedit velit eligendi nostrum. Magni hic ratione rerum laborum iste. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima commodi aut, nihil molestiae vitae dicta obcaecati sunt ducimus aspernatur! Natus ducimus, fugi provident deleniti quae praesentium dolorem doloremque ratione nam.
+         </p>
+         <div class="box"></div>
+         <div class="box"></div>
+         <div class="box"></div>
+    </main>
+    <footer>
+        <h2>footer</h2>
+        <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">contact</a>
+        </nav>
+    </footer>
+</body>
+</html>
